@@ -1,5 +1,10 @@
 //your JS code here. If required.
-functionName();
+function functionName(){
+	alert(arguments.callee.name);
+}
+function AccioJob(){
+	alert(arguments.callee.name);
+}
 AccioJob();
-alert("functionName");
-alert("AccioJob");
+
+functionName();
